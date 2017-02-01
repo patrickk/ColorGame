@@ -16,11 +16,27 @@ h1 {
   text-transform: uppercase;
   padding: 20px 0;
 }
-
+i {
+  cursor: pointer;
+}
 footer {
   font-family: "Montserrat", "Avenir";
   text-align: center;
   color: white;
+}
+
+.backBtn, .backBtn > a {
+  color: white;
+  line-height: 1.1;
+  text-align: left;
+  background: steelblue;
+  margin: 0;
+  font-weight: normal;
+  transition: all 0.5s;
+}
+
+.backBtn > a:hover {
+  color: black;
 }
 
 .wrong-score {
@@ -34,7 +50,7 @@ footer {
 }
 
 a:visited{
-  color: blue;
+  color: none;
 }
 
 #colorDisplay {
@@ -107,6 +123,7 @@ button {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   outline: none;
+  cursor: pointer;
 }
 
 button:hover {
