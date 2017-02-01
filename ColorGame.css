@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+body {
+  background-color: #343434;
+  margin: 0;
+  font-family: 'VT323', monospace; /*"Montserrat", "Avenir";*/
+}
+
+h1 {
+  color: white;
+  line-height: 1.1;
+  text-align: center;
+  background: steelblue;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+footer {
+  font-family: "Montserrat", "Avenir";
+  text-align: center;
+  color: white;
+}
+
+.wrong-score {
+  color: red;
+  transition:color 1.2s ease;
+}
+
+.right-score {
+  color: green;
+  transition:color 1.2s ease;
+}
+
+a:visited{
+  color: blue;
+}
+
+#colorDisplay {
+  font-size: 200%;
+}
+
+.square {
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 50%;
+  transition: background 0.8s;
+  -webkit-transition: background 0.8s;
+  -moz-transition: background 0.8s;
+  font-size: 1em;
+  text-align: center;
+  vertical-align: middle;
+  /*line-height: 100px;*/
+}
+
+.squareVal {
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.sound:hover {
+  color: black;
+  background: white;
+}
+
+#container {
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+#message {
+  display: inline-block;
+  width: 20%;
+  font-size: 1.5em;
+}
+
+.gameScore {
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+#stripe {
+  background: white;
+  height: 100%;
+  text-align: center;
+}
+
+.selected {
+  color: white;
+  background: steelblue;
+}
+
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 500;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  outline: none;
+}
+
+button:hover {
+  color: white;
+  background: steelblue;
+}
